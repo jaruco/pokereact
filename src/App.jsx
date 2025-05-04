@@ -56,7 +56,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Rotating Carousel</h1>
+      <h1>Pokemon</h1>
       <Carousel items={items} />
       <div className="pagination">
         <button
