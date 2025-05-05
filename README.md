@@ -84,3 +84,8 @@ npm run dev
 ## Development
 
 The project uses modern React features and follows best practices for component organization and styling. It implements a responsive design that works well across different screen sizes.
+
+## Acknowledgments
+
+- Pokemon type icons provided by [pokemon-type-icons](https://github.com/partywhale/pokemon-type-icons/tree/main) repository
+
