@@ -2,8 +2,8 @@ import React, { useState, useRef } from 'react';
 import './Carousel.css';
 import PokemonDetailCard from './PokemonDetailCard';
 
-function Carousel({ items }) {
-  const adjustedItems = items.slice(0, 12);
+function Carousel({ items = [] }) {
+  const adjustedItems = Array.isArray(items) ? items.slice(0, 12) : [];
   const [rotation, setRotation] = useState(0);
   const [selectedPokemon, setSelectedPokemon] = useState(null);
   const containerRef = useRef(null);
